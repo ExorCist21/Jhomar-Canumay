@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML Forms
+        </title>
+    </head>
+    <body>
+        <h1>HTML Form</h1>
+        <h1 style="color: blue;"> Full Name</h1>
+        <form>
+            <Label name="FirstName">First Name:</Label>
+            <input type= "textbox" size="10" name="FirstName"/>
+        </form>
+        <form>
+            <Label name="MiddleName">Middle Name:</Label>
+            <input type="textbox" size="10" name="Middle Name"/>
+        </form>
+        <form>
+            <Label name="LastName">Last Name:</Label>
+            <input type="textbox" size="10" name="Last Name"/>
+        </form>
+        <form>
+        <input type="radio" name="male" value="0">Male</input>
+        <input type="radio" name="female" value="1">Female</input>
+    </form>
+    <form>
+        <input type="submit" name="submit"/>
+    </form>
+    </body>
+    <body>
+        <h1 style="color: blue;"> Email</h1>
+   <a  href="https://mail.google.com/mail/u/0/#inbox"target="_blank"> Gmail </a>
+    </body>
+    <body>
+        <h1 style="color: blue;">Home Address</h1>
+        <form action = "/cgi-bin/hello_get.cgi" method = "get">
+            Fill the Detail: 
+            <br/>
+            <textarea rows = "5" cols = "50" name = "description"> Home Address</textarea>
+            <input type = "submit" value = "submit" />
+         </form>
+    </body>
+    <body>
+        <h1 style="color: Blue;">Hobbies</h1>
+        <input type="checkbox" id="hobbies1" name="hobbies1" value="Computer Games">
+<label for="hobbies1"> Computer Games</label><br>
+<input type="checkbox" id="hobbies2" name="hobbies12" value="Playing music instruments">
+<label for="hobbies2"> Playing music instruments</label><br>
+<input type="checkbox" id="hobbies3" name="hobbies3" value="Cooking">
+<label for="vehicle3"> Cooking</label><br>
+<input type="checkbox" id="hobbies4" name="hobbies4" value="Drawing">
+<label for="hobbies4"> Drawing</label><br>
+    </body>
+    <body>
+        <h1>Favorite Color</h1>
+        <select>
+            <option value=”blank”>Color</option>
+            <option value=”blue”>Blue</option>
+            <option value=”violet”>Voilet</option>
+            <option value=”pink”>Pink</option>
+            <option value=”red”>Red</option>
+            <option value=”orange”>Orange</option>
+            <option value=”yellow”>Yellow</option>
+            <option value=”green”>Green</option>
+            <option value=”black”>Black</option>
+            <option value=”white”>White</option>
+            </select>
+    </body>
+    <body>
+        <h1 style="color: blue;">Say something about yourself</h1>
+        <form action = "/cgi-bin/hello_get.cgi" method = "get">
+            Fill the Detail: 
+            <br/>
+            <textarea rows = "5" cols = "50" name = "description">Say something about yourself</textarea>
+            <input type = "submit" value = "submit" />
+            <form action="url-to-formmail-provided-by-your-ISP" method="post"></form>
+            <input type="reset" value="Clear form" />
+	        <input type="submit" value="Submit now" />
+         </form>
+    </body>
+</html>
